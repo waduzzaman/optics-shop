@@ -4,11 +4,11 @@
 import { useState } from 'react';
 
 // Page-specific SEO Metadata
-export const metadata = {
-  title: 'Contact Us - Optics Shop | Get in Touch',
-  description: 'Contact Optics Shop for appointments, inquiries, or any questions about our products and services. We are located in Toronto, ON.',
-  keywords: ['contact optics shop', 'eye clinic Toronto', 'book eye exam', 'optics phone number', 'optics email'],
-};
+// export const metadata = {
+//   title: 'Contact Us - Optics Shop | Get in Touch',
+//   description: 'Contact Optics Shop for appointments, inquiries, or any questions about our products and services. We are located in Toronto, ON.',
+//   keywords: ['contact optics shop', 'eye clinic Toronto', 'book eye exam', 'optics phone number', 'optics email'],
+// };
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
